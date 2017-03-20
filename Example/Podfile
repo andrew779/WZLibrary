@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WZLibrary_Example' do
+  pod 'WZLibrary', :path => '../'
+
+  target 'WZLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
